@@ -32,7 +32,7 @@ jobs:
       - name: Build
         env:
           # Set this to /<your-repo-name>/ so assets resolve on GitHub Pages
-          BASE_URL: /email-studio/
+          BASE_URL: /Email-Template-Builder_1.2/
         run: npm run build
 
       - name: Upload artifact
